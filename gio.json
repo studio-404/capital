@@ -1,0 +1,50 @@
+{
+	"Name": "Loans",
+	"Data": [{
+		"LoanID": 1576,
+		"LoanAmount": 6000,
+		"CCY": "GEL",
+		"AgreementNo": "1030-1576",
+		"OSBalance": 5998.13,
+		"NextScheduleDate": "2016-02-11 00:00:00",
+		"OVDDays": -1,
+		"Product": "ბიზნესს სესხი",
+		"ProductType": "ბიზნესს სესხი",
+		"NextScheduleDateText": "11 თებ 2016",
+		"TotalDueToday": 83.81
+	}, {
+		"LoanID": 1630,
+		"LoanAmount": 4000,
+		"CCY": "GEL",
+		"AgreementNo": "1030-1630",
+		"OSBalance": 4000,
+		"NextScheduleDate": "2016-02-1100:00:00",
+		"OVDDays": -1,
+		"Product": "სამომხმარებლო და იპოთეკური",
+		"ProductType": "სამომხმარებლო და იპოთეკური",
+		"NextScheduleDateText": "11 თებ 2016",
+		"TotalDueToday": 55.89
+	}, {
+		"LoanID": 1672,
+		"LoanAmount": 4000,
+		"CCY": "GEL",
+		"AgreementNo": "1030-1672",
+		"OSBalance": 4000,
+		"NextScheduleDate": "2016-02-1100:00:00",
+		"OVDDays": -1,
+		"Product": "სამომხმარებლო და იპოთეკური",
+		"ProductType": "სამომხმარებლო დაიპოთეკური",
+		"NextScheduleDateText": "11 თებ 2016",
+		"TotalDueToday": 55.89
+	}],
+	"AdvMessage": "სარეკლამო ტექსტი",
+	"ClientInfo": {
+		"FullName": "სახელი 1030 გვარი 1030",
+		"DOB": "1965-10-14 00:00:00"
+	},
+	"Error": {
+		"Code": 0,
+		"Text": "",
+		"Details": ""
+	}
+}
