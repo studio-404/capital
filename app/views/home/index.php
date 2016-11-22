@@ -31,7 +31,7 @@
 
 <header id="Header">
 		<div class="col-sm-4">
-			<div class="logo"><a class="ScrollAnimate"><img src="<?=$data["header"]["public"]?>img/logo.png" /></a></div>
+			<div class="logo"><a href="#Home" class="ScrollAnimate"><img src="<?=$data["header"]["public"]?>img/logo.png" /></a></div>
 		</div>
 
 		<div class="col-sm-8 text-right">

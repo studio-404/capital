@@ -20,11 +20,17 @@ var Config = {
     });
   });
 */
- 
+
+	// $('#HomeMenu').find('.active').removeClass('active');
+	
+
 $(document).ready(function(){
 
     "use strict";
-
+	$('#HomeMenu').find('.active').removeClass('active');
+$('#HomeMenu a[href="'+window.location.href.split('/')[3]+'"]').addClass('active');
+	
+	
     var toggles = document.querySelectorAll(".c-hamburger");
 
     for (var i = toggles.length - 1; i >= 0; i--) {
@@ -41,9 +47,17 @@ $(document).ready(function(){
 
   });
 
-$(function() {
-  $('#HomeMenu a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+  $(window).on('hashchange', function(e){
+	$('#HomeMenu').find('.active').removeClass('active');
+	$('#HomeMenu a[href="'+window.location.href.split('/')[3]+'"]').addClass('active');
+	
 });
+
+// $(function() {
+	
+  // $('#HomeMenu a[href="' + location.pathname.split("/")[3] + '"]').addClass('active');
+  
+// });
  
 /*
 Material Design Modal Open
@@ -183,7 +197,7 @@ var makeStatement = function(){
         $(".modal-message-box").html(obj.Error.Text);
       }else if(obj.Success.Code==1){
         $(".modal-message-box").html(obj.Success.Text);
-        $("#loanForm input[type='text']").each(function(){ 
+        $("#loanForm input[type='text']").each(function(){
           $(this).val('');
         });
       }else{
